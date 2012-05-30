@@ -1,4 +1,3 @@
-
 CS5300 S12
 
 TR 11:40-12:55
@@ -7,9 +6,6 @@ Uris G01
 
   
 Project 2: Graph Components in Hadoop
-
- 
- 
     	
 1. Introduction
 
@@ -126,22 +122,3 @@ A result from percolation theory (no, we don't expect you to learn any percolati
 The magic constant desiredDensity = 0.59 from Section 4 was chosen to be near the critical density for this system when edges are only horizontal and vertical. Of course, when diagonal edges are added, there are more possible ways for paths to form, so you should expect the critical density to be smaller.
 
 For full extra credit you should estimate the critical density for the system in which diagonal edges are allowed. Choose a modest file size -- say 1000 by 1000 -- and make a plot of average component size or burn count against density. The critical density should be pretty obvious from such a plot.
-
-7. Submit Your Work
-
-CMS: Create a file, in zip archive format, named solution.zip This archive should contain
-
-a README file. 
-This may be in .pdf or .txt or .doc format. This file should include anything we need to know to grade your assignment. In particular, it should briefly describe the overall structure of your solution, and specify what functionality is implemented in each MapReduce pass.
-Of course it should contain the output -- the statistics discussed in Section 5 -- resulting from running your program on the production.txt file. It should also contain the parameters you used for your run:
-
-the netid and computed filter parameters (wMin and wLimit) used for your filter definition to select vertices;
-if you found it necessary to run on a prefix of production.txt, the number of grid points you processed;
-if you did the extra credit part, the parameters used for that part and your best estimate of the critical density.
-the Java source code for each MapReduce pass. 
-Include understandable high-level comments.
-As always, you may include additional files in the archive if you wish. Submit your solution.zip file using CMS by the specified deadline.
-
-Presentation: For this Project, we will ask you to sign up for a brief (15 minute) presentation of your solution. This is not a demo -- we won't ask you to run anything at Amazon in real time -- it's more like a short oral exam, in lieu of a Final, where we get to ask you questions about your solution. You should prepare a few PowerPoint (or .pdf or ...) slides for this presentation -- a projector will be available. Script your presentation so everybody in the group gets to say something.
-
-Note: the deadline for submitting your project to CMS is the same for everybody; it is not the the time your presentation is scheduled.
